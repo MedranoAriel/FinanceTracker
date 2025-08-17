@@ -1,5 +1,6 @@
 from calculate_monthly_installments import calculate_monthly_installments
 from menu import generate_menu
+from input_expenses import input_expenses
 
 # --- Examples ---
 # Format: (amount per installment, current installment, total installments)
@@ -29,7 +30,7 @@ def main():
             # Calculate and display the monthly installments summary
             calculate_monthly_installments(my_expenses)
         elif user_choice == '2':
-            print("NOT IMPLEMENTED YET")
+            input_expenses()
         elif user_choice == '3':
             print("Thanks for using the app! Goodbye!")
 
